@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-
+import image from '../../assets/filipe-muniz.jpg';
 const Header = () => {
   return (
     <header className="bg-white">
@@ -8,7 +8,7 @@ const Header = () => {
          
           <div className="flex justify-center">
             <img
-              src="src/assets/filipe-muniz.jpg"
+              src={image}
               alt="Filipe Muniz"
               className="w-28 h-28 rounded-full object-cover"
             />
